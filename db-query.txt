@@ -1,0 +1,23 @@
+MYSQL
+#in tb pakets
+INSERT INTO `pakets` (`id`, `name`, `harga`, `waktu`, `createdAt`, `updatedAt`) VALUES (NULL, 'Reguler dengan Setrika', '6000', '48', '2023-12-04 11:30:58.000000', '2023-12-04 11:30:58.000000');
+INSERT INTO `pakets` (`id`, `name`, `harga`, `waktu`, `createdAt`, `updatedAt`) VALUES (NULL, 'Reguler tanpa Setrika', '4500', '48', '2023-12-04 11:30:58.000000', '2023-12-04 11:30:58.000000');
+INSERT INTO `pakets` (`id`, `name`, `harga`, `waktu`, `createdAt`, `updatedAt`) VALUES (NULL, 'Kilat', '10000', '8', '2023-12-04 11:30:58.000000', '2023-12-04 11:30:58.000000');
+INSERT INTO `pakets` (`id`, `name`, `harga`, `waktu`, `createdAt`, `updatedAt`) VALUES (NULL, 'Bulanan', '100000', '720', '2023-12-04 11:30:58.000000', '2023-12-04 11:30:58.000000');
+
+#in db users
+INSERT INTO `users` (`id`, `name`, `status`, `berat`, `total`, `dibayar`, `paketId`, `createdAt`, `updatedAt`) VALUES (NULL, 'gimnas', 'Baru', '5', '5', '1', '1', '2023-12-04 11:21:25.000000', '2023-12-04 11:21:25.000000');
+
+
+
+
+PROSGATE
+INSERT INTO `pakets` (`id`, `name`, `harga`, `waktu`, `createdAt`, `updatedAt`) VALUES (1, 'Reguler dengan Setrika', '6000', '48', '2023-12-04 11:30:58.000000', '2023-12-04 11:30:58.000000');
+INSERT INTO `pakets` (`id`, `name`, `harga`, `waktu`, `createdAt`, `updatedAt`) VALUES (2, 'Reguler tanpa Setrika', '4500', '48', '2023-12-04 11:30:58.000000', '2023-12-04 11:30:58.000000');
+INSERT INTO `pakets` (`id`, `name`, `harga`, `waktu`, `createdAt`, `updatedAt`) VALUES (3, 'Kilat', '10000', '8', '2023-12-04 11:30:58.000000', '2023-12-04 11:30:58.000000');
+INSERT INTO `pakets` (`id`, `name`, `harga`, `waktu`, `createdAt`, `updatedAt`) VALUES (4, 'Bulanan', '100000', '720', '2023-12-04 11:30:58.000000', '2023-12-04 11:30:58.000000');
+
+
+
+users
+INSERT INTO "users" ("id", "name", "status", "berat", "total", "dibayar", "paketId", "createdAt", "updatedAt") VALUES (NULL, 'gimnas', 'Baru', '5', '5', '1', '1', '2023-12-04 11:21:25.000000', '2023-12-04 11:21:25.000000');
