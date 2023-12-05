@@ -7,6 +7,6 @@ app.use(cors());
 app.use(express.json());
 app.use(UserRoute);
 
-// app.listen(5000, () => console.log('Running...'));
+app.listen(5000, () => console.log('Running...'));
 
 export default app;
